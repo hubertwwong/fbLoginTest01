@@ -6,8 +6,15 @@
 	<body>
 		fb login test.
 		<div id="fb-root"></div>
-		<script type="text/javascript" src="views/fb/fb.js"></script>
+		<script type="text/javascript" src="js/fb.js"></script>
 		
+		<!--
+		  Below we include the Login Button social plugin. This button uses the JavaScript SDK to
+		  present a graphical Login button that triggers the FB.login() function when clicked.
+		
+		  Learn more about options for the login button plugin:
+		  /docs/reference/plugins/login/ -->
+		<fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>
 		
 		<!-- your code -->
 	</body>
