@@ -6,8 +6,12 @@ class Web < Sinatra::Base
     "Hello, world"
   end
   
-  get '/fb' do
-    erb :"fb/index"
+  get '/fb/loginBasic' do
+    erb :"fb/loginBasic/index"
+  end
+  
+  get '/fb/loginJQuery' do
+    erb :"fb/loginJQuery/index"
   end
   
   # start the server if ruby file executed directly
