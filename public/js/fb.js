@@ -13,9 +13,9 @@ window.fbAsyncInit = function() {
 	FB.init({
 		appId : '172330626307632', // App ID
 		channelUrl : 'channel.html', // Channel File
-		status : true, // check login status
-		cookie : true, // enable cookies to allow the server to access the session
-		xfbml : true // parse XFBML
+		status : true, 	// check login status
+		cookie : true, 	// enable cookies to allow the server to access the session
+		xfbml : true 	// parse XFBML
 	});
 
 	// Here we subscribe to the auth.authResponseChange JavaScript event. This event is fired
