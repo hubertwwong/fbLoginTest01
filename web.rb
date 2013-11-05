@@ -7,6 +7,7 @@ class Web < Sinatra::Base
   end
   
   get '/fb/loginBasic' do
+    #"login basic"
     erb :"fb/loginBasic/index"
   end
   
